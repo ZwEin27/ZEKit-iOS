@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F154AA21ABF9D0C0061D0F9 /* ZEKSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AA11ABF9D0C0061D0F9 /* ZEKSingleton.m */; };
+		1F154AA51ABFBFBA0061D0F9 /* ZEKCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AA41ABFBFBA0061D0F9 /* ZEKCache.m */; };
+		1F154AA81ABFBFEC0061D0F9 /* ZEKCacheProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AA71ABFBFEC0061D0F9 /* ZEKCacheProtocol.m */; };
+		1F154AAB1ABFC0870061D0F9 /* ZEKCacheUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AAA1ABFC0870061D0F9 /* ZEKCacheUserDefaults.m */; };
+		1F154AAE1ABFC13E0061D0F9 /* ZEKFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AAD1ABFC13E0061D0F9 /* ZEKFoundation.m */; };
+		1F154AB11ABFD31E0061D0F9 /* ZEKSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AB01ABFD31E0061D0F9 /* ZEKSandbox.m */; };
+		1F154AB41ABFD9A60061D0F9 /* ZEKSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F154AB31ABFD9A60061D0F9 /* ZEKSystemInfo.m */; };
 		1FA36E171ABE39F000F7C454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA36E161ABE39F000F7C454 /* main.m */; };
 		1FA36E1A1ABE39F000F7C454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA36E191ABE39F000F7C454 /* AppDelegate.m */; };
 		1FA36E1D1ABE39F000F7C454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA36E1C1ABE39F000F7C454 /* ViewController.m */; };
@@ -32,6 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F154AA01ABF9D0C0061D0F9 /* ZEKSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKSingleton.h; sourceTree = "<group>"; };
+		1F154AA11ABF9D0C0061D0F9 /* ZEKSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKSingleton.m; sourceTree = "<group>"; };
+		1F154AA31ABFBFBA0061D0F9 /* ZEKCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKCache.h; sourceTree = "<group>"; };
+		1F154AA41ABFBFBA0061D0F9 /* ZEKCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKCache.m; sourceTree = "<group>"; };
+		1F154AA61ABFBFEC0061D0F9 /* ZEKCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKCacheProtocol.h; sourceTree = "<group>"; };
+		1F154AA71ABFBFEC0061D0F9 /* ZEKCacheProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKCacheProtocol.m; sourceTree = "<group>"; };
+		1F154AA91ABFC0870061D0F9 /* ZEKCacheUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKCacheUserDefaults.h; sourceTree = "<group>"; };
+		1F154AAA1ABFC0870061D0F9 /* ZEKCacheUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKCacheUserDefaults.m; sourceTree = "<group>"; };
+		1F154AAC1ABFC13E0061D0F9 /* ZEKFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKFoundation.h; sourceTree = "<group>"; };
+		1F154AAD1ABFC13E0061D0F9 /* ZEKFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKFoundation.m; sourceTree = "<group>"; };
+		1F154AAF1ABFD31E0061D0F9 /* ZEKSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKSandbox.h; sourceTree = "<group>"; };
+		1F154AB01ABFD31E0061D0F9 /* ZEKSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKSandbox.m; sourceTree = "<group>"; };
+		1F154AB21ABFD9A60061D0F9 /* ZEKSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEKSystemInfo.h; sourceTree = "<group>"; };
+		1F154AB31ABFD9A60061D0F9 /* ZEKSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEKSystemInfo.m; sourceTree = "<group>"; };
 		1FA36E111ABE39F000F7C454 /* ZEKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA36E151ABE39F000F7C454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FA36E161ABE39F000F7C454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -198,6 +219,12 @@
 		1FA36E451ABE416800F7C454 /* cache */ = {
 			isa = PBXGroup;
 			children = (
+				1F154AA31ABFBFBA0061D0F9 /* ZEKCache.h */,
+				1F154AA41ABFBFBA0061D0F9 /* ZEKCache.m */,
+				1F154AA61ABFBFEC0061D0F9 /* ZEKCacheProtocol.h */,
+				1F154AA71ABFBFEC0061D0F9 /* ZEKCacheProtocol.m */,
+				1F154AA91ABFC0870061D0F9 /* ZEKCacheUserDefaults.h */,
+				1F154AAA1ABFC0870061D0F9 /* ZEKCacheUserDefaults.m */,
 			);
 			path = cache;
 			sourceTree = "<group>";
@@ -212,6 +239,14 @@
 		1FA36E471ABE416800F7C454 /* foundation */ = {
 			isa = PBXGroup;
 			children = (
+				1F154AA01ABF9D0C0061D0F9 /* ZEKSingleton.h */,
+				1F154AA11ABF9D0C0061D0F9 /* ZEKSingleton.m */,
+				1F154AAC1ABFC13E0061D0F9 /* ZEKFoundation.h */,
+				1F154AAD1ABFC13E0061D0F9 /* ZEKFoundation.m */,
+				1F154AAF1ABFD31E0061D0F9 /* ZEKSandbox.h */,
+				1F154AB01ABFD31E0061D0F9 /* ZEKSandbox.m */,
+				1F154AB21ABFD9A60061D0F9 /* ZEKSystemInfo.h */,
+				1F154AB31ABFD9A60061D0F9 /* ZEKSystemInfo.m */,
 			);
 			path = foundation;
 			sourceTree = "<group>";
@@ -422,13 +457,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA36E1D1ABE39F000F7C454 /* ViewController.m in Sources */,
+				1F154AB11ABFD31E0061D0F9 /* ZEKSandbox.m in Sources */,
+				1F154AA81ABFBFEC0061D0F9 /* ZEKCacheProtocol.m in Sources */,
 				1FA36F151ABE4C1300F7C454 /* UIColor+CIELAB.m in Sources */,
+				1F154AAE1ABFC13E0061D0F9 /* ZEKFoundation.m in Sources */,
+				1F154AB41ABFD9A60061D0F9 /* ZEKSystemInfo.m in Sources */,
+				1F154AA51ABFBFBA0061D0F9 /* ZEKCache.m in Sources */,
 				1FA36E1A1ABE39F000F7C454 /* AppDelegate.m in Sources */,
+				1F154AAB1ABFC0870061D0F9 /* ZEKCacheUserDefaults.m in Sources */,
 				1FA36F141ABE4C1300F7C454 /* UIColor+Chameleon.m in Sources */,
 				1FA36F111ABE4C1300F7C454 /* ChameleonStatusBar.m in Sources */,
 				1FA36F161ABE4C1300F7C454 /* UIViewController+Chameleon.m in Sources */,
 				1FA36F021ABE46B700F7C454 /* UIColor+ZEKColor.m in Sources */,
 				1FA36E171ABE39F000F7C454 /* main.m in Sources */,
+				1F154AA21ABF9D0C0061D0F9 /* ZEKSingleton.m in Sources */,
 				1FA36F131ABE4C1300F7C454 /* NSArray+Chameleon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,6 +663,7 @@
 				1FA36E361ABE39F000F7C454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA36E371ABE39F000F7C454 /* Build configuration list for PBXNativeTarget "ZEKitTests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +672,7 @@
 				1FA36E391ABE39F000F7C454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,7 +5,7 @@
 //  Created by TENGLINGZHE on 15/3/21.
 //  Copyright (c) 2015年 ZwEin. All rights reserved.
 //
-
+#import "ZEK.h"
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+
+    //ZEKCacheUserDefaults *zekcud = [ZEKCacheUserDefaults sharedInstance];
+    //[zekcud setObject:@"hello world" forKey:@"test"];
+    
+    //NSLog(@"%@",[ZEK_SINGLETON(ZEKCacheUserDefaults) objectForKey:@"test"]);
+
+    //ZEKSystemInfo *zek = [ZEKSystemInfo sharedInstance]
+    
+    
+    NSLog(@"%@",[ZEKSandbox libCachePath] );
+    
 }
 
 - (void)didReceiveMemoryWarning {
